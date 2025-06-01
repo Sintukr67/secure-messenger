@@ -1,0 +1,45 @@
+# No external dependencies required 
+# 1.First, have two users register and send messages:
+# User 1 (Alice):
+# 1. Register
+# Enter username: alice
+# Enter password: alice123
+# User 2 (Bob):
+# 1. Register
+# Enter username: bob
+# Enter password: bob123
+
+# 2.Alice sends a message to Bob:
+# Login as Alice:
+# 2. Login
+# Enter username: alice
+# Enter password: alice123
+
+# Send message:
+# 3. Send Secure Message
+# Enter receiver's username: bob
+# Enter your message: Hello Bob, this is a secret message!
+
+# 3.Bob can now view and decrypt the message:
+# Login as Bob:
+# 2. Login
+# Enter username: bob
+# Enter password: bob123
+
+# View received messages:
+# 6. View Received Messages
+
+# Bob will see:
+# Received Messages:
+# You have 1 received messages:
+
+# Message 1:
+# From: alice
+# Time: 2024-03-14T10:30:45
+# Message: Hello Bob, this is a secret message!
+
+scikit-learn==1.3.2
+nltk==3.8.1
+numpy==1.24.3
+pandas==2.0.3
+joblib==1.3.2
